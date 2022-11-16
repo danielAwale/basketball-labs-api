@@ -1,0 +1,19 @@
+{
+  "name": "basketball-labs-api",
+  "version": "1.0.0",
+  "description": "backend server for our final project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielAwale/basketball-labs-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielAwale/basketball-labs-api/issues"
+  },
+  "homepage": "https://github.com/danielAwale/basketball-labs-api#readme"
+}
