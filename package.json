@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/danielAwale/basketball-labs-api/issues"
   },
-  "homepage": "https://github.com/danielAwale/basketball-labs-api#readme"
+  "homepage": "https://github.com/danielAwale/basketball-labs-api#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
 }
