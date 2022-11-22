@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 
 // Routing
-const landing_page = require("./routes/landing_page");
+const landing_page = require("./routes/landing_page")(db);
 const login = require("./routes/login")
 const logout = require("./routes/logout");
 const registration = require("./routes/registration");
