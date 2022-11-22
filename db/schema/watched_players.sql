@@ -1,6 +1,6 @@
-DROP TABLE IF EXISTS watched_player CASCADE;
+DROP TABLE IF EXISTS watched_players CASCADE;
 
-CREATE TABLE watched_player (
+CREATE TABLE watched_players (
   id SERIAL PRIMARY KEY NOT NULL,
   player_id INTEGER REFERENCES player(id) ON DELETE CASCADE,
   user_id INTEGER REFERENCES user(id) ON DELETE CASCADE
