@@ -6,7 +6,7 @@ module.exports = function(db) {
   router.get("/", async (req, res) => {
     try {
       const featuredPlayer = await db.query('SELECT first_name, last_name, points, assists, rebounds FROM players')
-      console.log(featuredPlayer)
+      console.log(res.json(featuredPlayer.rows))
     } catch (error) {
       console.log(error.message)
     }
