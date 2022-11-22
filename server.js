@@ -22,12 +22,14 @@ const landing_page = require("./routes/landing_page")(db);
 const login = require("./routes/login")
 const logout = require("./routes/logout");
 const registration = require("./routes/registration");
+const filter = require("./routes/filter")(db);
 
 // //Mount Resourceß
 app.use("/", landing_page);
 app.use("/login", login);
 app.use("/logout", logout);
 app.use("/registration", registration);
+app.use("/filter", filter);
 
 app.listen(PORT, () => {
   console.log("server has started listening on port ", PORT)
