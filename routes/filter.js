@@ -4,6 +4,15 @@ const { Pool } = require("pg");
 
 module.exports = function(db) {
 
+  router.get("/", async (req, res) => {
+    try {
+      const getAllStats = await db.query('SELECT * FROM players')
+      console.log(res.json(getAllStats.rows))
+    } catch (error) {
+      console.log(error.message)
+    }
+  })
+
   router.get("/points", async (req, res) => {
     try {
       const filterByPoints = await db.query('SELECT * FROM players ORDER BY points DESC')
