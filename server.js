@@ -26,14 +26,16 @@ const logout = require("./routes/logout");
 const register = require("./routes/register");
 const filter = require("./routes/filter")(db);
 const auth = require("./routes/jwtAuth");
+const dashboard = require("./routes/dashboard");
 
-// //Mount Resourceß
+// //Mount Resource
 app.use("/", landing_page);
 app.use("/login", login);
 app.use("/logout", logout);
 app.use("/register", register);
 app.use("/filter", filter);
 app.use("/auth", auth(db));
+app.use("/dashboard", dashboard(db));
 
 app.listen(PORT, () => {
   console.log("server has started listening on port ", PORT)
