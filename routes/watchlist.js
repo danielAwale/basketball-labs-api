@@ -15,7 +15,7 @@ module.exports = (db) => {
   //     res.status(500).json("Server Error");
   //   }
   // })
-  router.get("/", (req, res) => {
+  router.get("/", authorization, (req, res) => {
     try {
       db.query("SELECT user_name FROM users WHERE user_id = $1",
         [req.user]
