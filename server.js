@@ -21,18 +21,12 @@ app.use(cors());
 
 // Routing
 const landing_page = require("./routes/landing_page")(db);
-const login = require("./routes/login")
-const logout = require("./routes/logout");
-const register = require("./routes/register");
 const filter = require("./routes/filter")(db);
 const auth = require("./routes/jwtAuth");
 const watchlist = require("./routes/watchlist");
 
 // //Mount Resource
 app.use("/", landing_page);
-app.use("/login", login);
-app.use("/logout", logout);
-app.use("/register", register);
 app.use("/filter", filter);
 app.use("/auth", auth(db));
 app.use("/watchlist", watchlist(db));
