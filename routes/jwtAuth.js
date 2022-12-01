@@ -81,5 +81,6 @@ module.exports = (db) => {
       res.status(500).send("Server Error");
     }
   })
+
   return router;
 }
