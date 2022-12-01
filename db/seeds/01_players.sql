@@ -190,3 +190,83 @@ VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/44235
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4397183.png', 23, 'Oklahoma City Thunder', 'Aaron', 'Wiggins', 8.3, 1.4, 3.6, 0.6, 0.2, 1.1, 46.3, 72.9, 0.8);
+
+--Bucks
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032977.png', 23, 'Milwaukee Bucks', 'Giannis', 'Antetokounmpo', 29.9, 5.8, 11.6, 1.1, 1.4, 3.3, 55.3, 72.2, 1.1);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3995.png', 23, 'Milwaukee Bucks', 'Jrue', 'Holiday', 18.3, 6.8, 4.5, 1.6, 0.4, 2.7, 50.1, 76.1, 2.0);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6609.png', 23, 'Milwaukee Bucks', 'Khris', 'Middleton', 20.1, 5.4, 5.4, 1.2, 0.3, 2.9, 44.3, 89.0, 0.8);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064482.png', 23, 'Milwaukee Bucks', 'Bobby', 'Portis', 14.6, 1.2, 9.1, 0.7, 0.7, 1.3, 47.9, 75.2, 1.8);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3135045.png', 23, 'Milwaukee Bucks', 'Grayson', 'Allen', 11.1, 1.5, 3.4, 0.7, 0.3, 0.7, 44.8, 86.5, 2.4);
+
+--Cavaliers
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396907.png', 23, 'Cleveland Cavaliers', 'Darius', 'Garland', 21.7, 8.6, 3.3, 1.3, 0.1, 3.6, 46.2, 89.2, 2.6);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432158.png', 23, 'Cleveland Cavaliers', 'Evan', 'Mobley', 15.0, 2.5, 8.3, 0.8, 1.7, 1.9, 50.8, 66.3, 0.3);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066328.png', 23, 'Cleveland Cavaliers', 'Jarrett', 'Allen', 16.1, 1.6, 10.8, 0.8, 1.3, 1.7, 67.7, 70.8, 0.0);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066336.png', 23, 'Cleveland Cavaliers', 'Lauri', 'Markkanen', 14.8, 1.3, 5.7, 0.7, 0.5, 0.9, 44.5, 86.8, 2.4);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991043.png', 23, 'Cleveland Cavaliers', 'Caris', 'LeVert', 13.6, 3.9, 3.4, 0.8, 0.3, 1.7, 43.5, 74.5, 1.1);
+
+--Pacers
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4396993.png', 23, 'Indiana Pacers', 'Tyrese', 'Haliburton', 17.5, 9.6, 4.3, 1.8, 0.6, 3.2, 50.2, 84.9, 2.2);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2990984.png', 23, 'Indiana Pacers', 'Buddy', 'Hield', 18.2, 4.8, 5.1, 1.0, 0.4, 2.4, 44.7, 88.6, 3.1);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3155942.png', 23, 'Indiana Pacers', 'Domantas', 'Sabonis', 18.9, 5.0, 12.1, 1.0, 0.5, 3.0, 58.0, 63.9, 0.7);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a1.espncdn.com/combiner/i?img=%2Fi%2Fheadshots%2Fnba%2Fplayers%2Ffull%2F2566769.png', 23, 'Indiana Pacers', 'Malcolm', 'Brogdon', 19.1, 5.9, 5.1, 0.8, 0.4, 2.1, 44.8, 85.6, 1.6);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3133628.png', 23, 'Indiana Pacers', 'Myles', 'Turner', 12.9, 1.0, 7.1, 0.7, 2.8, 1.3, 50.9, 75.2, 1.5);
+
+--Bulls
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3978.png', 23, 'Chicago Bulls', 'DeMar', 'DeRozan', 27.9, 4.9, 5.2, 0.9, 0.3, 2.4, 50.4, 87.7, 0.7);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064440.png', 23, 'Chicago Bulls', 'Zach', 'LaVine', 24.4, 4.5, 4.6, 0.6, 0.3, 2.6, 47.6, 85.3, 2.8);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4066421.png', 23, 'Chicago Bulls', 'Lonzo', 'Ball', 13.0, 5.1, 5.4, 1.8, 0.9, 2.3, 42.3, 75.0, 3.1);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/6478.png', 23, 'Chicago Bulls', 'Nikola', 'Vucevic', 17.6, 3.2, 11.0, 1.0, 1.0, 1.9, 47.3, 76.0, 1.4);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991350.png', 23, 'Chicago Bulls', 'Alex', 'Caruso', 7.4, 4.0, 3.6, 1.7, 0.4, 1.4, 39.8, 79.5, 1.0);
+
+--Pistons
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4397136.png', 23, 'Detriot Pistons', 'Saddiq', 'Bey', 16.1, 2.8, 5.4, 0.9, 0.2, 1.2, 39.6, 82.7, 1.0);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4432166.png', 23, 'Detriot Pistons', 'Cade', 'Cunningham', 17.4, 5.6, 5.5, 1.2, 0.7, 3.7, 41.6, 84.5, 1.8);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2991070.png', 23, 'Detriot Pistons', 'Jerami', 'Grant', 19.2, 2.4, 4.1, 0.9, 1.0, 1.8, 42.6, 83.8, 1.9);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4277848.png', 23, 'Detriot Pistons', 'Marvin', 'Bagley III', 14.6, 1.1, 6.8, 0.7, 0.4, 1.0, 55.5, 59.3, 0.4);
+
+INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
+VALUES('https://a.espncdn.com/i/headshots/nba/players/full/4432810.png', 23, 'Detriot Pistons', 'Isaiah', 'Stewart', 8.3, 1.2, 8.7, 0.3, 1.1, 1.2, 51.0, 71.8, 0.2);
