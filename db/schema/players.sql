@@ -4,7 +4,7 @@ CREATE TABLE players (
   id SERIAL PRIMARY KEY NOT NULL,
   picture VARCHAR(255) NOT NULL,
   player_api_id INTEGER NOT NULL,
-  team_api_id INTEGER NOT NULL,
+  team_name VARCHAR(255) NOT NULL,
   first_name VARCHAR(255) NOT NULL,
   last_name VARCHAR(255) NOT NULL,
   points FLOAT NOT NULL DEFAULT 0,
