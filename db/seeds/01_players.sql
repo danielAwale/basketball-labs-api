@@ -26,7 +26,7 @@ INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, p
 VALUES('https://a.espncdn.com/i/headshots/nba/players/full/1966.png', 265, 'Los Angeles Lakers', 'LeBron', 'James', 30.3, 6.2, 8.2, 1.3, 1.1, 3.5, 52.4, 75.6, 0.7);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
-VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2426.png', 21, 'Los Angeles Lakers', 'Carmelo', 'Anthony', 13.3, 1.0, 4.2, 0.7, 0.8, 0.9, 44.1, 83.0, 2.2);
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1975.png', 21, 'Los Angeles Lakers', 'Carmelo', 'Anthony', 13.3, 1.0, 4.2, 0.7, 0.8, 0.9, 44.1, 83.0, 2.2);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2426.png', 23, 'Los Angeles Lakers', 'Trevor', 'Ariza', 4.0, 1.1, 3.4, 0.5, 0.3, 0.5, 33.3, 55.6, 0.8);
