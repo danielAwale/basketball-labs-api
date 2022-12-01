@@ -16,7 +16,7 @@ module.exports = (db) => {
 
       //check if user exists
       if (user.rows.length !== 0) {
-        return res.status(401).send("User already exists");
+        return res.status(401).json("User already exists");
       }
 
       //bcrypt the password
