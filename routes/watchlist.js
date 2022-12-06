@@ -31,11 +31,10 @@ module.exports = (db) => {
   })
 
   router.post("/:userId", authorization, (req, res) => {
-    const userID = req.params.userId;
+    //const userID = req.params.userId;
     try {
       db.query("SELECT * FROM watched_players JOIN players ON players.id=watched_players.player_id")
       .then((watchlist) => {
-        console.log(watchlist.rows[0])
         res.json(watchlist.rows)
       })
 
