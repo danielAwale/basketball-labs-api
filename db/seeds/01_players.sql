@@ -97,7 +97,7 @@ VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3423.
 
 --Knicks
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
-VALUES('hhttps://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png', 23, 'New York Knicks', 'Julius', 'Randle', 20.1, 5.1, 9.9, 0.7, 0.5, 3.4, 41.1, 75.6, 1.7);
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png', 23, 'New York Knicks', 'Julius', 'Randle', 20.1, 5.1, 9.9, 0.7, 0.5, 3.4, 41.1, 75.6, 1.7);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4395625.png', 23, 'New York Knicks', 'RJ', 'Barrett', 20.0, 3.0, 5.8, 0.6, 0.2, 2.2, 40.8, 71.4, 2.0);
@@ -151,7 +151,7 @@ INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, p
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3032976.png', 23, 'Utah Jazz', 'Ruby', 'Gobert', 15.6, 1.1, 14.7, 0.7, 2.1, 1.8, 71.3, 69.0, 0.0);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
-VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2583632.png', 23, 'Utah Jazz', 'Royce', "O'Neale", 7.4, 2.5, 4.8, 1.1, 0.4, 1.0, 45.7, 80.4, 1.5);
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/2583632.png', 23, 'Utah Jazz', 'Royce', 'ONeale', 7.4, 2.5, 4.8, 1.1, 0.4, 1.0, 45.7, 80.4, 1.5);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3593.png', 23, 'Utah Jazz', 'Bojan', 'Bogdanovic', 18.1, 1.7, 4.3, 0.5, 0.0, 1.7, 45.5, 85.8, 2.6);
@@ -167,7 +167,7 @@ INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, p
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136195.png', 23, 'Minnesota Timberwolves', 'Karl-Anthony', 'Towns', 24.6, 3.6, 9.8, 1.0, 1.1, 3.1, 52.9, 82.2, 2.0);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
-VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136776.png', 23, 'Minnesota Timberwolves', "D'Angelo", 'Russell', 18.1, 7.1, 3.3, 1.0, 0.3, 2.5, 41.1, 82.5, 2.7);
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3136776.png', 23, 'Minnesota Timberwolves', 'DAngelo', 'Russell', 18.1, 7.1, 3.3, 1.0, 0.3, 2.5, 41.1, 82.5, 2.7);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4431671.png', 23, 'Minnesota Timberwolves', 'Jaden', 'McDaniels', 9.2, 1.1, 4.2, 0.7, 0.8, 1.1, 46.0, 80.3, 1.1);

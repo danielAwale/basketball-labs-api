@@ -15,6 +15,7 @@ module.exports = (db) => {
   //     res.status(500).json("Server Error");
   //   }
   // })
+
   router.get("/", authorization, (req, res) => {
     try {
       db.query("SELECT user_name FROM users WHERE user_id = $1",
@@ -22,6 +23,21 @@ module.exports = (db) => {
       ).then((user) => {
         res.json(user.rows[0]);
       })
+
+    } catch (error) {
+      console.error(err.message);
+      res.status(500).json("Server Error");
+    }
+  })
+
+  router.post("/:userId", authorization, (req, res) => {
+    // const userID = req.params.userId;
+    try {
+      db.query("SELECT * FROM watched_players JOIN players ON players.id=watched_players.player_id")
+        .then((watchlist) => {
+          console.log(watchlist.rows[0])
+          res.json(watchlist.rows)
+        })
 
     } catch (error) {
       console.error(err.message);

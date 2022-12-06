@@ -6,6 +6,8 @@ const express = require("express");
 const app = express();
 const morgan = require("morgan");
 const cors = require("cors");
+const bodyParser = require("body-parser");
+
 
 // DB Setup
 const { Pool } = require("pg");
@@ -18,6 +20,7 @@ app.use(express.json()); //req.body
 app.use(express.urlencoded({ extended: true }));
 app.use(morgan("dev"));
 app.use(cors());
+app.use(bodyParser.json());
 
 // Routing
 const landing_page = require("./routes/landing_page")(db);
