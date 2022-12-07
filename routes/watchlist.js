@@ -47,7 +47,6 @@ module.exports = (db) => {
   })
 
   router.post("/add/:playerId", authorization, async (req, res) => {
-    console.log("......", req.params.playerId, "---------", req.user)
     try {
       // console.log(req.params.userId);
       // console.log(req.params.playerId);
