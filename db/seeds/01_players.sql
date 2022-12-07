@@ -97,7 +97,7 @@ VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3423.
 
 --Knicks
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
-VALUES('hhttps://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png', 23, 'New York Knicks', 'Julius', 'Randle', 20.1, 5.1, 9.9, 0.7, 0.5, 3.4, 41.1, 75.6, 1.7);
+VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/3064514.png', 23, 'New York Knicks', 'Julius', 'Randle', 20.1, 5.1, 9.9, 0.7, 0.5, 3.4, 41.1, 75.6, 1.7);
 
 INSERT INTO players (picture, player_api_id, team_name, first_name, last_name, points, assists, rebounds, steals, blocks, turnovers, field_goal_percentage, free_throw_percentage, three_points_made)
 VALUES('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4395625.png', 23, 'New York Knicks', 'RJ', 'Barrett', 20.0, 3.0, 5.8, 0.6, 0.2, 2.2, 40.8, 71.4, 2.0);

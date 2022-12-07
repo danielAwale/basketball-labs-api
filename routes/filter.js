@@ -1,10 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const { Pool } = require("pg");
-const app = express();
-const bodyParser = require("body-parser");
-
-app.use(bodyParser.json());
 
 const app = express();
 const bodyParser = require("body-parser");
