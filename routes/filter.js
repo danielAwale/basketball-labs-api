@@ -109,27 +109,6 @@ module.exports = function(db) {
     }
   });
 
-  router.post("/add/:playerId/:userId", async (req, res) => {
-    try {
-      // console.log(req.params.userId);
-      // console.log(req.params.playerId);
-      const newId = await db.query('INSERT INTO watched_players (player_id, user_id) VALUES($1,$2)', [req.params.playerId, req.params.userId])
-      res.json(newId);
-    } catch (error) {
-      console.log(error.message)
-    }
-  });
-
-  router.delete("/delete/:playerId/:userId", async (req, res) => {
-    try {
-      // console.log(req.params.playerId);
-      const deleteId = await db.query('DELETE FROM watched_players WHERE player_id=$1 AND user_id=$2', [req.params.playerId, req.params.userId])
-      res.json(deleteId);
-    } catch (error) {
-      console.log(error.message)
-    }
-  });
-
 
   return router;
 }
