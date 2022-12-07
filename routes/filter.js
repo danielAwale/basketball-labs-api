@@ -6,6 +6,11 @@ const bodyParser = require("body-parser");
 
 app.use(bodyParser.json());
 
+const app = express();
+const bodyParser = require("body-parser");
+
+app.use(bodyParser.json());
+
 module.exports = function(db) {
 
   router.get("/", async (req, res) => {
@@ -128,6 +133,16 @@ module.exports = function(db) {
       console.log(error.message)
     }
   });
+
+  router.get("/playerid", async (req, res) => {
+    try {
+      const filterById = await db.query('SELECT id FROM players ORDER BY id ASC')
+      res.json(filterById.rows)
+    } catch (error) {
+      console.log(error.message)
+    }
+  });
+
 
   return router;
 }
